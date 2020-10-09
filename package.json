@@ -1,0 +1,29 @@
+{
+  "name": "@atlassian/code-coverage-client",
+  "description": "Node.js client for [bitbucket-code-coverage](https://bitbucket.org/atlassian/bitbucket-code-coverage)",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/atlassian/code-coverage-client.git"
+  },
+  "homepage": "https://bitbucket.org/atlassian/code-coverage-client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test",
+    "prepare": "mocha test"
+  },
+  "bin": {
+    "code-coverage-client": "./src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "outdent": "^0.4.1"
+  }
+}
