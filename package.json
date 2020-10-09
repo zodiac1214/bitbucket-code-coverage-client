@@ -1,11 +1,11 @@
 {
-  "name": "@atlassian/code-coverage-client",
-  "description": "Node.js client for [bitbucket-code-coverage](https://bitbucket.org/atlassian/bitbucket-code-coverage)",
+  "name": "bitbucket-code-coverage-client",
+  "description": "Node.js client for [bitbucket-code-coverage](https://github.com/zodiac1214/bitbucket-code-coverage-client)",
   "license": "Apache-2.0",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/atlassian/code-coverage-client.git"
+    "url": "git+ssh://git@github.com:zodiac1214/bitbucket-code-coverage-client.git"
   },
   "homepage": "https://bitbucket.org/atlassian/code-coverage-client",
   "main": "src/index.js",

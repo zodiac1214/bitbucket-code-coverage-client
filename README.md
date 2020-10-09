@@ -1,3 +1,7 @@
+# NOTE
+
+This is a fork from https://bitbucket.org/atlassian/code-coverage-client/src/master/. The original package has not been updated for couple of years. this is a republish.
+
 # Code Coverage client
 
 Node.js client for [bitbucket-code-coverage](https://bitbucket.org/atlassian/bitbucket-code-coverage)
@@ -5,7 +9,7 @@ Node.js client for [bitbucket-code-coverage](https://bitbucket.org/atlassian/bit
 ## Installation
 
 ```bash
-yarn global add @atlassian/code-coverage-client
+yarn global add bitbucket-code-coverage-client
 ```
 
 ## Usage
